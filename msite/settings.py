@@ -82,7 +82,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'orionzhou@soyurt',
         'USER': 'orionzhou',
-        'PASSWORD': 'mysql_pw',
+        'PASSWORD': 'mysql-pw',
         'HOST': 'orionzhou.mysql.pythonanywhere-services.com',
     }
 }
