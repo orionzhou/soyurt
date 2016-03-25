@@ -84,7 +84,7 @@ DATABASES = {
 #        'NAME': 'soyurt',
 #        'HOST': 'orionzhou.mysql.pythonanywhere-services.com',
 #        'NAME': 'orionzhou$soyurt',
-        'HOST': 'mt1.cfans.umn.edu',
+        'HOST': 'plpa201657036.cfans.umn.edu',
         'NAME': 'urt',
         'USER': 'orionzhou',
         'PASSWORD': 'mysql-pw',
@@ -131,4 +131,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 #STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATIC_ROOT = '/Users/pengzhou/Sites/mt1/static/'
+STATIC_ROOT = '/Users/pengzhou/Sites/plpa201657036/static/'
