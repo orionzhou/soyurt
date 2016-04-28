@@ -84,13 +84,13 @@ DATABASES = {
 #        'ENGINE': 'django.db.backends.sqlite3',
 #        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         'ENGINE': 'django.db.backends.mysql',
-#        'HOST': 'orion.cpnp4xlindil.us-west-2.rds.amazonaws.com',
-#        'NAME': 'soyurt',
-#        'HOST': 'orionzhou.mysql.pythonanywhere-services.com',
-#        'NAME': 'orionzhou$soyurt',
-        'HOST': 'plpa201657036.cfans.umn.edu',
-        'NAME': 'urt',
-        'USER': 'orionzhou',
+#        'HOST': 'plpa201657036.cfans.umn.edu',
+#        'NAME': 'urt',
+#        'USER': 'orionzhou',
+#        'PASSWORD': 'mysql-pw',
+        'HOST': 'mysql-dev1.oit.umn.edu',
+        'NAME': 'cfans_soy_historical_data',
+        'USER': 'zhoux379',
         'PASSWORD': 'mysql-pw',
         'PORT': '3306',
     }
@@ -135,4 +135,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 #STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATIC_ROOT = '/Users/pengzhou/Sites/plpa201657036/static/'
+STATIC_ROOT = '/Library/Server/Web/Data/Sites/mtres1/static'
