@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django_tables2',
     'import_export',
     'urt',
-    'blog',
+#    'blog',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -135,4 +135,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 #STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATIC_ROOT = '/Library/Server/Web/Data/Sites/mtres1/static'
+STATIC_ROOT = '/Users/pengzhou/Sites/plpa201657036/static'
