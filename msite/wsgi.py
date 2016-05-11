@@ -8,8 +8,6 @@ https://docs.djangoproject.com/en/1.9/howto/deployment/wsgi/
 """
 
 import os, sys
-sys.path.append('/Users/orion/git/soyurt')
-sys.path.append('/Users/orion/git/soyurt/myvenv/lib/python2.7/site-packages')
 
 from django.core.wsgi import get_wsgi_application
 
