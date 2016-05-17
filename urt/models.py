@@ -9,6 +9,8 @@ class Strain(models.Model):
     generation = models.CharField(max_length=16, null=True, blank=True)
     previous_testing = models.CharField(max_length=45, null=True, blank=True)
     unique_traits = models.CharField(max_length=256, null=True, blank=True)
+    alias_pi = models.CharField(max_length=256, null=True, blank=True)
+    alias_experiment = models.CharField(max_length=256, null=True, blank=True)
     def __unicode__(self):
         return self.name
 
